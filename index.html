@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    
+        <h1 class="name">
+            CALCULATOR
+        </h1>
+  
+    <div class="container">
+        <table border="5" cellspacing="3">
+           <input type="text" id="inputLabel" disabled>
+            <tr>
+                <td colspan="3"><button class="round" onclick="clearNum()">AC</button></td>
+                <td><button class="round" onclick="numbers('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="round" onclick="numbers(7)">7</button></td>
+                <td><button class="round" onclick="numbers(8)">8</button></td>
+                <td><button class="round" onclick="numbers(9)">9</button></td>
+                <td><button class="round" onclick="numbers('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="round" onclick="numbers(4)">4</button></td>
+                <td><button class="round" onclick="numbers(5)">5</button></td>
+                <td><button class="round" onclick="numbers(6)">6</button></td>
+                <td><button class="round" onclick="numbers('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="round" onclick="numbers(1)">1</button></td>
+                <td><button class="round" onclick="numbers(2)">2</button></td>
+                <td><button class="round" onclick="numbers(3)">3</button></td>
+                <td><button class="round" onclick="numbers('+')">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="round" onclick="numbers(0)">0</button></td>
+                <td><button class="round" onclick="numbers('.')">.</button></td>
+                <td><button class="round" onclick="calc()">=</button></td>
+            </tr>
+        </table>
+    </div>
+<br>
+    <div>
+    <h1 id="by">Made By:</h1>
+</div>
+<div class="mass">
+    <h1 class="mad">AUA DEVELOPERS</h1>
+</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
